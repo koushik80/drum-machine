@@ -14,7 +14,7 @@ h2 {
 
 #drum-machine {
   margin: 15px;
-  height: 5vh;
+  height: 21vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -84,7 +84,6 @@ margin-bottom: 10px
   background-color: #041B2D;
 }
 
-
 .App {
   text-align: center;
 
@@ -102,13 +101,20 @@ margin-bottom: 10px
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
 }
+.project {
 
+  margin: 0;
+  padding-top: 70px;
+
+}
 .App-logo {
-  height: 15vmin;
+  height: 3vmin;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: space-between;
   pointer-events: none;
   border-radius: 50%;
+  padding: 0 2px 5px;
+  margin-top: 10px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -132,12 +138,12 @@ margin-bottom: 10px
 .logo {
     position: absolute;
     top: 5px;
-    right: 10px;
+    right: 15px;
+    justify-content: space-between;
 }
     .inner-logo {
       display: inline-block;
       font-style: italic;
       font-weight: bold;
-      font-size: 20px;
+      font-size: 25px;
     }
-  

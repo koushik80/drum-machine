@@ -54,7 +54,7 @@ const Keyboard = ({ sounds, play, power, deactivateAudio }) => (
         value={volume}
         onChange={handleVolumeChange}
       />
-      <h2 id="display" >{name}</h2>
+      <h2 id="display">{name}</h2>
       <button onClick={changeSoundGroup}>Change Sounds Group</button>
     </div>
   );
@@ -66,18 +66,18 @@ const App = () => {
   const [soundType, setSoundType] = React.useState("heaterKit");
   const [sounds, setSounds] = React.useState(soundsGroup[soundType]);
   const styleActiveKey = (key) => {
-    key.parentElement.style.backgroundColor = "#000000"
-    key.parentElement.style.color = "#ffffff"
+    key.parentElement.style.backgroundColor = "#DE5B6D"
+    key.parentElement.style.color = "#43978D"
   }
   const deactivatedKey = (audio) => {
-    audio.parentElement.style.backgroundColor = "#ffffff"
-    audio.parentElement.style.color = "#000000"
+    audio.parentElement.style.backgroundColor = "#DE5B6D"
+    audio.parentElement.style.color = "#43978D"
   }
 
   const deactivateAudio = (audio) => {
     setTimeout(() => {
-      audio.parentElement.style.backgroundColor = "#ffffff"
-      audio.parentElement.style.color = "#000000"
+      audio.parentElement.style.backgroundColor = "#DE5B6D"
+      audio.parentElement.style.color = "#43978D"
     }, 300)
   }
 
@@ -119,13 +119,15 @@ const App = () => {
   return (
     <div className="App">
       <div className='logo'>
-        <div className='inner-logo'>devHuß</div>
+        <div className='inner-logo'>devHuß
+        <img src={logo} className="App-logo" alt="logo" /></div>
       </div>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div className="project">
         <p>
           Front End Development <code></code> Libraries Project 3
-        </p>
+          </p>
+          </div>
         <a
           className="App-link"
           href="https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-drum-machine"
@@ -151,9 +153,7 @@ const App = () => {
         />
       </div>
     </div>
-      
-      
-      </div>
+    </div>
     </div>
   )
 };
