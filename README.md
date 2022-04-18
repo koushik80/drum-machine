@@ -18,4 +18,4 @@
 <p>User Story 7: When a .drum-pad is triggered, a string describing the associated audio clip is displayed as the inner text of the #display element (each string must be unique).</p>
 
 <h3 align="center">fcc Objective: Build a CodePen.io app that is functionally similar to this: </h3><br>
-<p><a href="https://codepen.io/freeCodeCamp/full/MJyNMd" target="_blank">Example</a></p>
+<p align="center"><a href="https://codepen.io/freeCodeCamp/full/MJyNMd" target="_blank">Example</a></p>
