@@ -1,4 +1,4 @@
-<div align="center"><a href="https://drum-machine-koushik.netlify.app/" target="_blank">Markdown Previewer</a></div>
+<div align="center"><a href="https://drum-machine-koushik.netlify.app/" target="_blank">Drum Machine</a></div>
 <h1 align="center">fcc_Frontend Dev Project 3</h1><br>
 <h3 align="left">Technologies:</h3>
 <ul>
