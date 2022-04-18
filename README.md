@@ -2,9 +2,9 @@
 <h1 align="center">fcc_Frontend Dev Project 3</h1><br>
 <h3 align="left">Technologies:</h3>
 <ul>
-<li>React</li>
+<li>React.js</li>
 <li>CSS</li>
-<li></li>
+<li>React Hook</li>
 <li></li>
 </ul>
 <h1 align="left">User Stories</h1> <br>
