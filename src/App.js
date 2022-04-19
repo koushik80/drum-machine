@@ -108,8 +108,8 @@ const App = () => {
     setVolume(e.target.value)
   }
   const setKeyVolume = () => {
-    const audioes = sounds.map(sound => document.getElementById(sound.key));
-    audioes.forEach(audio => {
+    const audios = sounds.map(sound => document.getElementById(sound.key));
+    audios.forEach(audio => {
       if (audio) {
         audio.volume = volume;
       }
