@@ -125,7 +125,7 @@ const App = () => {
       <header className="App-header">
         <div className="project">
         <p>
-          Front End Development <code></code> Libraries Project 3
+          Frontend Development <code></code> Libraries Project 3
           </p>
           </div>
         <a
@@ -151,7 +151,7 @@ const App = () => {
           changeSoundGroup={changeSoundGroup}
           handleVolumeChange={handleVolumeChange}
         />
-      </div>
+    </div>
     </div>
     </div>
     </div>
