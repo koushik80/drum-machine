@@ -125,7 +125,7 @@ const App = () => {
       <header className="App-header">
         <div className="project">
         <p>
-          Frontend Development <code></code> Libraries Project 3
+          freeCodeCamp <code>Frontend Development</code> Libraries Project 3
           </p>
           </div>
         <a
