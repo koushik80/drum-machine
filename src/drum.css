@@ -1,15 +1,16 @@
 *{
   margin: 0;
   font-family: 'Roboto', sans-serif;
+
 }
 
 body {
   font-size: 24px;
-  background-image: url("../public/drms.jpg")
+  background-image: url("../public/drms.jpg");
 }
 
 h2 {
-  font-size: 28px
+  font-size: 30px
 }
 
 #drum-machine {
@@ -55,7 +56,7 @@ h2 {
   }
 }
 
-@media(min-width: 992px){
+@media(min-width: 992px) {
   .wrapper {
      grid-template-columns: 1fr 1fr;
   }
@@ -71,7 +72,7 @@ h2 {
 .control > button,
 .control > input,
 .control > h2{
-margin-bottom: 10px
+margin-bottom: 10px;
 }
 
 .control button{
